@@ -5,6 +5,8 @@
 ReactNative WebView实现Android端图片和视频的拍摄和选择，以及ios，android根据webView内容自动设置高度（WebView嵌套在ScrollView中问题），修复现在Android端WebView偶先的闪退bug
 
 # 安装
+按照作者的引入方式会报错，因为`react native` webview组件已经移入到了`react-native-community`中，引入会报错。所以需要源码的形式引入，并且对源码进行修改。
+
 ```
 npm install react-native-webview-plugin  
 或者
